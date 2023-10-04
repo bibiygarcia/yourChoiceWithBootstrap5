@@ -8,57 +8,38 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <!-- CHANGE FONTS? -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Archivo+Black">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- Header -->
 <header>
-  <p class="text-center fs-5 fw-light p-2">
-    <i class="bi bi-tree p-2"></i>
+  <p class="text-center pt-2">
+    <i class="bi bi-tree pe-3"></i>
     Come out to the Farm for farm-fresh produce, pasture-raised meats and local dairy!
-    <i class="bi bi-tree p-2"></i>
+    <i class="bi bi-tree ps-3"></i>
   </p>
 </header>
 
 <!-- NavBar -->
-<nav id="NavBar" class="navbar sticky-top navbar-light bg-white navbar-expand-lg">
-  <div class="container-fluid">
-    <img src="logo.png" alt="Harvest Moon Farm & Orchard" class="mb-2 mt-2">
+<nav id="NavBar" class="navbar sticky-top navbar-expand-lg">
+  <div class="container">
+    <img src="logo.png" alt="Harvest Moon Farm & Orchard" class="ps-4">
     <ul class="navbar-nav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"><strong>HOME</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">APPLE PICKING</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">FESTIVAL OF LIGHTS</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              MORE
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">CSA</a></li>
-              <li><a class="dropdown-item" href="#">MENU</a></li>
-              <li><a class="dropdown-item" href="#">EVENTS</a></li>
-              <li><a class="dropdown-item" href="#">HARDSCRABBLE CIDER</a></li>
-              <li><a class="dropdown-item" href="#">PRESS</a></li>
-              <li><a class="dropdown-item" href="#">EMPLOYEE RESOURCES</a></li>
-              <li><a class="dropdown-item" href="#">CONTACT US</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="pe-3">|</i><i class="bi bi-person"></i></a>
-          </li>
+        <ul class="navbar-nav pt-2">
+          <li class="nav-item p-3"><strong><u>HOME</u></strong></li>
+          <li class="nav-item p-3">ABOUT</li>
+          <li class="nav-item p-3">APPLE PICKING</li>
+          <li class="nav-item p-3">FESTIVAL OF LIGHTS</li>
+          <li class="nav-item p-3">MORE <i class="bi bi-caret-down"></i></li>
+          <li class="p-3 ps-2">|</li>
+          <li class="nav-item p-3"><i class="bi bi-person"></i></li>
         </ul>
       </div>
     </ul>
@@ -67,95 +48,286 @@
 
 <!-- MiddleHours -->
 <div id="MiddleHours" class="container-fluid">
-  <br><br><br>
-  <h1 class="text-center fw-bold"><strong>WELCOME TO HARVEST MOON</strong></h1>
-  <br><br>
-  <h2 class="text-center fw-light"><strong>Farm Store Open Every Day!<br>9:00 am to 6:00pm</strong></h2>
-  <br><br>
-  <h2 class="text-center fw-light"><strong>Kitchen Open<br>9:00 am to 3:00 pm</strong></h2>
-  <br><br><br><br><br><br><br>
+  <br><br><br><br><br><br>
+  <h1 class="text-center ts-1">WELCOME TO HARVEST MOON</h1>
+    <h2 class="text-center">
+      <br>Farm Store Open Every Day!
+      <br>9:00 am to 6:00pm
+      <br>
+      <br>Kitchen Open
+      <br>9:00 am to 3:00 pm
+    </h2>
 </div>
 
 <!-- Description -->
-<div id="Description" class="container p-4">
+<div id="Description" class="container p-5">
+  <!-- ROW 1 -->
   <div class="row">
     <div class="col">
-      <img src="image1.png">
+      <img src="image1.png" alt="apples small" class="p-3">
     </div>
     <div class="col">
-      <h3 class="text-center fw-light"><strong>Apple Picking Season Now Open!</strong></h3>
-      <p class="text-center">Each September and October, we welcome the public to our Farm for apple picking in our beautiful, hillside orchard! Guests can enjoy a classic Fall day, strolling the grounds while taking in the breathtaking, panoramic views of the beautiful Hudson Valley.
-      </p>
-      <p class="text-center">We offer something for guests of all ages:  BBQ lunch, hot apple cider donuts, refreshing apple cider slushies, fresh baked pies, pumpkins, and gifts, all while enjoying live country music.  For our adult guests, bartenders will be slinging our locally famous Hardscrabble Cider produced right here on our Farm.?
-        <br>Join us for a truly authentic day out in the country in the beautiful Hudson Valley!
-      </p>
-      <p class="text-center">
-        Saturday, October 7th
-        <br>
-        Sunday, October 8th
-      </p>
-      <p class="text-center">
-        COLUMBUS DAY
-        <br>
-        Monday, October 9th
-      </p>
-      <p class="text-center">
-        Saturday, October 14th
-        <br>
-        Sunday, October 15th
-      </p>
-      <p class="text-center">
-        Tickets for upcoming dates are released on a weekly basis here on our website. Please check in at a later time for future dates!
-      </p>
-
-      <div class="d-grid gap-2 col-6 mx-auto">
+      <div class="container">
+        <h3 class="text-center fs-4 p-3">Apple Picking Season Now Open!</h3>
+        <p class="text-center fs-5">
+          Each September and October, we welcome the public to our Farm for apple picking in our beautiful, hillside orchard! Guests can enjoy a classic Fall day, strolling the grounds while taking in the breathtaking, panoramic views of the beautiful Hudson Valley.
+          <br><br>
+          We offer something for guests of all ages:  BBQ lunch, hot apple cider donuts, refreshing apple cider slushies, fresh baked pies, pumpkins, and gifts, all while enjoying live country music.  For our adult guests, bartenders will be slinging our locally famous Hardscrabble Cider produced right here on our Farm.
+          <br><br>
+          Join us for a truly authentic day out in the country in the beautiful Hudson Valley!
+          <br><br>
+          Saturday, October 7th
+          <br>
+          Sunday, October 8th
+          <br><br>
+          COLUMBUS DAY
+          <br>
+          Monday, October 9th
+          <br><br>
+          Saturday, October 14th
+          <br>
+          Sunday, October 15th
+          <br><br>
+          Tickets for upcoming dates are released on a weekly basis here on our website. Please check in at a later time for future dates!
+          <br><br><br><br>
+        </p>
+      </div>
+      <div class="d-grid col-7 mx-auto pb-5">
         <button class="btn btn-secondary btn-lg" type="button">CLICK HERE FOR TICKETS</button>
       </div>
-
     </div>
   </div>
+
+  <!-- ROW 2 -->
+  <div class="row">
+    <div class="col">
+      <div class="container">
+        <h3 class="text-center fs-4 p-3">Hardscrabble Cider Pizza Nights</h3>
+        <p class="text-center fs-5">
+          The summer season has commenced!
+          <br><br>
+          Summer evenings are best spent at the orchard surrounded by good friends, great food and drink, and LIVE music!
+          <br><br>
+          Join us on a Friday, 5 to 9pm, for hard cider, live local bands, rotating food trucks, and our own wood-fired pizza.
+          <br><br>
+          Please click the link below for guidelines, and our weekly band and food truck schedule.
+          <br>
+        </p>
+      </div>
+      <div class="d-grid col-10 mx-auto pb-5">
+        <button class="btn btn-secondary btn-lg" type="button">CLICK HERE FOR MORE INFORMATION</button>
+      </div>
+    </div>
+    <div class="col">
+      <img src="image2.png" alt="apples small" class="p-3">
+    </div>
+  </div>
+
+  <!-- ROW 3 -->
+  <div class="row">
+    <div class="col">
+      <img src="image3.png" alt="apples small" class="p-3">
+    </div>
+    <div class="col">
+      <div class="container">
+        <h3 class="text-center fs-4 p-3">Fall Season School Tours</h3>
+        <p class="text-center fs-5">
+          We are so pleased to be able to offer school tours during the months of September and October!  Farmer Todd will describe the inner workings of our Farm and talk about how our foods go from farm to table!  Students will also enjoy a scenic wagon ride through our hillside orchard.
+          <br><br>
+          Harvest Moon tours are geared towards elementary education and cannot be scheduled on weekends/holidays.
+          <br><br>
+          Bookings will commence each August for the upcoming  season.
+          <br>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROW 4 -->
+  <div class="row align-items-start">
+    <div class="col">
+      <h3 class="text-center fs-4 p-3">Community Supported Agriculture (CSA)<br>Program at Harvest Moon</h3>
+      <p class="text-center fs-5">
+        Our CSA 2023 Season is in Full Swing!
+        <br><br>
+        Community Supported Agriculture (CSA) programs allow consumers the opportunity to purchase fresh, local produce by providing the means to develop direct relationships with local farmers. CSAs are mutually beneficial for both parties. By paying in advance of the growing season, CSA programs support farmers by providing much-needed funds to cover the up-front costs associated with raising food.
+        <br><br>
+        Consumers benefit by receiving a weekly box of the freshest crops possible; produce is harvested at its peak, resulting in a diverse offering of food unparalleled in freshness and nutrition. Many consumers enjoy the surprise of new and never-before tasted foods, since it is not uncommon to receive fruits and vegetables one may never have cooked or encountered before, so joining a CSA requires a bit of adventure and creativity!
+        <br><br>
+        To learn more about our CSA program here at Harvest Moon, please click the action button below.
+        <br><br>
+      </p>
+      <div class="d-grid col-4 mx-auto pb-5">
+        <button class="btn btn-secondary btn-lg" type="button">LEARN MORE</button>
+      </div>
+    </div>
+    <div class="col">
+      <img src="image4.png" alt="apples small" class="p-3">
+    </div>
+  </div>
+
+  <!-- ROW 5 -->
+  <div class="row align-items-start">
+    <div class="col">
+      <img src="image5.png" alt="apples small" class="p-3">
+    </div>
+    <div class="col">
+        <h3 class="text-center fs-4 p-3">Shop our Farm Store!</h3>
+        <p class="text-center fs-5">
+          We offer a bounty of groceries  including farm-raised meats, dairy products, and fresh and/or organic produce, much of it grown right here on our Farm or on local farms located nearby in the Hudson Valley (subject to seasonal availability).
+          <br><br>
+        </p>
+    </div>
+  </div>
+
+  <!-- ROW 6 -->
+  <div class="row align-items-start">
+    <div class="col">
+      <h3 class="text-center fs-4 p-3">Private Events</h3>
+      <p class="text-center fs-5">
+        Thank you for thinking of us for your private event!
+        <br><br>
+        Please contact us at <a href="#">Events@HMorchard.com</a> to inquire about your event. We accept bookings for the months of April through August. Important note, we are unable to schedule events in September and October due to our apple picking season.
+        <br><br>
+        Photo Credit @jessicamicciophoto
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+      </p>
+    </div>
+    <div class="col">
+      <img src="image6.png" alt="apples small" class="p-3">
+    </div>
+  </div>
+
+  <!-- ROW 7 -->
+  <div class="row align-items-center">
+    <div class="col">
+      <img src="image7.png" alt="apples small" class="p-3">
+    </div>
+    <div class="col">
+      <h3 class="text-center fs-4 p-3">Current Harvest Moon Stats</h3>
+      <p class="text-center fs-5">
+        <strong>Farm Store Hours</strong>
+        <br>
+        Monday thru Sunday, 9am to 5pm
+        <br><br>
+        <strong>Kitchen Hours</strong>
+        <br>
+        <strong>(Dependent Upon Season)</strong>
+        <br>
+        9am to 3pm
+        <br><br>
+        <strong>Pet Policy</strong>
+        <br>
+        Due to the Department of Agriculture's Good Food Policy, we can no longer allow dogs to visit our Farm.
+        <br><br>
+        Service dogs are trained to work or perform a task for persons with disabilities.  Comfort and/or emotional support animals are not service animals, and are not recognized by the ADA, and as such are not allowed.
+        <br><br>
+        We thank you for your understanding.
+      </p>
+    </div>
+  </div>
+
 </div>
 
 
 <!-- Footer -->
 <footer>
-  <div class="container-fluid">
+  <div class="container-fluid p-5">
     <!-- Title -->
     <div class="row">
-      <h1 class="text-center"><strong>STAY CONNECTED WITH US!</strong></h1>
+      <h1 class="text-center p-4"><strong>STAY CONNECTED WITH US!</strong></h1>
     </div>
     <!-- Input and info -->
-    <div class="row">
+    <div id="InputRow" class="row">
       <div class="col">
-        Join Our Email List for News & Info!
-        <input class="form-control" type="text" placeholder="Name" aria-label="Name">
+        <div id="inputs0" class="container">
+          <h4>Join Our Email List for News & Info!</h4>
+        </div>
+        <div id="inputs1" class="container">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+          </div>
+        </div>
+        <br>
+        <div id="inputs2" class="container">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Email*" aria-label="Email" aria-describedby="basic-addon1">
+          </div>
+        </div>
+        <br>
+        <div id="inputs3" class="container">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Brief Note" aria-label="Note" aria-describedby="basic-addon1">
+          </div>
+        </div>
+        <br>
+        <div id="inputs4" class="container">
+          <div>
+            <input type="checkbox" id="scales" name="scales" />
+            <label for="scales"></label> Sign up for our email list for updates, special events, promotions, and more.
+          </div>
+        </div>
+        <br>
+        <div class="d-grid col-7 mx-auto pb-5">
+          <button class="btn btn-light btn-sm" type="button">SEND</button>
+        </div>
+        <div id="inputs5" class="container">
+          <p class="text-center">This site is protected by reCAPTCHA and the Google <bright>Privacy Policy</bright> and <bright>Terms of Service</bright> apply.</p>
+        </div>
 
       </div>
       <div class="col">
+        <h5>Visit our store!</h5>
+        <br>
+        We love our customers, so please visit us during normal business hours.
+        <br><br>
+        <h5>Harvest Moon Farm and Orchard</h5>
+        <br>
+        130 Hardscrabble Road, North Salem, NY 10560
 
       </div>
+
     </div>
+
     <!-- MAP? -->
-    <div class="row">
-
+    <div class="row p-5">
+      <div id="map" class="container-fluid">Get Directions</div>
     </div>
+
     <!-- Address etc -->
-    <div class="row">
-      <div class="navbar">
-
-      </div>
-      <p class="text-center"><strong>Harvest Moon Farm and Orchard</strong></p>
-
+    <div id="navDark" class="navbar navbar-expand-lg navbar-dark">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item p-1">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item p-1">
+          <a class="nav-link" href="#">Festival of Lights</a>
+        </li>
+        <li class="nav-item p-1">
+          <a class="nav-link" href="#">Hardscrabble Cider</a>
+        </li>
+      </ul>
     </div>
+
+    <div class="row align-items-center">
+      <p class="text-center">
+        <br>
+        <strong>Harvest Moon Farm and Orchard</strong>
+        <br><br>
+        130 Hardscrabble Rd. North Salem NY, 910560
+        <br><br>
+        (914) 485-1210
+        <br><br>
+        <small id="Copyright">Copyright (C) 2023 Harvest Moon Farm and Orchard</small>
+      </p>
+    </div>
+
+
   </div>
-
-  <!--
-  <form class="d-flex">
-    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success" type="submit">Search</button>
-  </form>
-  -->
-
 </footer>
 
 </body>

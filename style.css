@@ -1,20 +1,114 @@
 header {
   background-color: black;
   color: white;
+  height: 40px;
+  font-family: 'Montserrat', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: large;
 }
 
 #NavBar{
+  background-color: white;
+  color: black;
+  height: 95px;
+}
+
+.navbar-nav {
+  font-family: 'Montserrat', serif;
+  font-weight: 400;
+  font-size: large;
+  text-underline-offset: 7px;
 }
 
 #MiddleHours {
+  background-image: url("applesOnTrees.png");
+  background-position: center;
   background-size: cover;
-  background-image: url("vecteezy_fresh-ripe-fruit-on-green-branch-nature-healthy-gourmet_28731502_445.jpg");
+  min-height: 500px;
+  height: 692px;
+  max-height: 700px;
+  filter: brightness(70%);
   color: white;
 }
+
+h1 {
+  font-family: 'Archivo Black', serif;
+}
+
+h2,h3 {
+  font-family: 'Montserrat', serif;
+}
+
+h4, h5 {
+  color: white;
+}
+
+body {
+  font-family: 'Montserrat', serif;
+}
+
+#InputRow {
+  color: gray;
+
+}
+
+#inputs0 {
+  height: 50px;
+  width: 500px;
+}
+
+#inputs1 {
+  background-color: rgb(24,25,26);
+  height: 50px;
+  width: 500px;
+}
+
+#inputs2 {
+  background-color: rgb(24,25,26);
+  height: 50px;
+  width: 500px;
+}
+
+#inputs3 {
+  background-color: rgb(24,25,26);
+  height: 50px;
+  width: 500px;
+}
+
+#inputs4 {
+  height: 50px;
+  width: 500px;
+}
+
+#inputs5 {
+  height: 50px;
+  width: 500px;
+  color: grey;
+  font-size: small;
+  & bright {
+    color: white;
+  }
+}
+
 
 footer{
   background-color: black;
   color: white;
+
+}
+
+#map {
+  background-color: antiquewhite;
+  height: 300px;
+  color: black;
+}
+
+#Copyright {
+  color: grey;
+}
+
+#navDark {
 }
 
 
